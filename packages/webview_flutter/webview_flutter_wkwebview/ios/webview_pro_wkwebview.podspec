@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
 A Flutter plugin that provides a WebView widget.
 Downloaded by pub (not CocoaPods).
                        DESC
-  s.homepage         = 'https://github.com/loregr/flutter-plugins.git'
+  s.homepage         = 'https://github.com/lollipopai/flutter-plugins.git'
   s.license          = { :type => 'BSD', :file => '../LICENSE' }
-  s.author           = { 'loregr' => 'loregr@gmail.com' }
-  s.source           = { :http => 'https://github.com/loregr/flutter-plugins/tree/main/packages/webview_flutter/webview_flutter_wkwebview' }
+  s.author           = { 'lollipopai' => 'lollipopai@gmail.com' }
+  s.source           = { :http => 'https://github.com/lollipopai/flutter-plugins/tree/main/packages/webview_flutter/webview_flutter_wkwebview' }
   s.source_files = 'Classes/**/*.{h,m}'
   s.public_header_files = 'Classes/**/*.h'
   s.module_map = 'Classes/FlutterWebView.modulemap'
