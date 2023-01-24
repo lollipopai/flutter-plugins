@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.flutter.plugins.webviewflutterexample;
+package io.lollipop.flutter.plugins.webviewflutterexample;
 
 import static org.junit.Assert.assertTrue;
 
 import androidx.test.core.app.ActivityScenario;
-import io.flutter.plugins.webviewflutter.WebViewFlutterPlugin;
+import io.lollipop.flutter.plugins.webviewflutter.WebViewFlutterPlugin;
 import org.junit.Test;
 
 public class WebViewTest {

@@ -7,4 +7,4 @@ flutter pub run pigeon \
 --dart_out lib/src/android_webview.pigeon.dart \
 --dart_test_out test/android_webview.pigeon.dart \
 --java_out android/src/main/java/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView.Java \
---java_package io.flutter.plugins.webviewflutter
+--java_package io.lollipop.flutter.plugins.webviewflutter

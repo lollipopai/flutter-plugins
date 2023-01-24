@@ -17,7 +17,7 @@ void main() {
   group('Tests on `plugin.flutter.io/webview_<channel_id>` channel', () {
     const int channelId = 1;
     const MethodChannel channel =
-        MethodChannel('plugins.flutter.io/webview_$channelId');
+        MethodChannel('plugins.lollipop.flutter.io/webview_$channelId');
     final WebViewPlatformCallbacksHandler callbacksHandler =
         MockWebViewPlatformCallbacksHandler();
     final JavascriptChannelRegistry javascriptChannelRegistry =

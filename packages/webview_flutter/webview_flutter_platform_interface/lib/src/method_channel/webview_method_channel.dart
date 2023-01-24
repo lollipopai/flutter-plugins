@@ -19,7 +19,7 @@ class MethodChannelWebViewPlatform implements WebViewPlatformController {
     this._platformCallbacksHandler,
     this._javascriptChannelRegistry,
   )   : assert(_platformCallbacksHandler != null),
-        _channel = MethodChannel('plugins.flutter.io/webview_$id') {
+        _channel = MethodChannel('plugins.lollipop.flutter.io/webview_$id') {
     _channel.setMethodCallHandler(_onMethodCall);
   }
 
