@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.lollipop.flutter.plugins.webviewflutter;
+package io.flutter.plugins.webviewflutter;
 
 import android.app.Application;
 import android.content.Context;
@@ -18,14 +18,14 @@ import io.flutter.embedding.engine.plugins.activity.ActivityAware;
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.platform.PlatformViewRegistry;
-import io.lollipop.flutter.plugins.webviewflutter.GeneratedAndroidWebView.CookieManagerHostApi;
-import io.lollipop.flutter.plugins.webviewflutter.GeneratedAndroidWebView.DownloadListenerHostApi;
-import io.lollipop.flutter.plugins.webviewflutter.GeneratedAndroidWebView.FlutterAssetManagerHostApi;
-import io.lollipop.flutter.plugins.webviewflutter.GeneratedAndroidWebView.JavaScriptChannelHostApi;
-import io.lollipop.flutter.plugins.webviewflutter.GeneratedAndroidWebView.WebChromeClientHostApi;
-import io.lollipop.flutter.plugins.webviewflutter.GeneratedAndroidWebView.WebSettingsHostApi;
-import io.lollipop.flutter.plugins.webviewflutter.GeneratedAndroidWebView.WebViewClientHostApi;
-import io.lollipop.flutter.plugins.webviewflutter.GeneratedAndroidWebView.WebViewHostApi;
+import io.flutter.plugins.webviewflutter.GeneratedAndroidWebView.CookieManagerHostApi;
+import io.flutter.plugins.webviewflutter.GeneratedAndroidWebView.DownloadListenerHostApi;
+import io.flutter.plugins.webviewflutter.GeneratedAndroidWebView.FlutterAssetManagerHostApi;
+import io.flutter.plugins.webviewflutter.GeneratedAndroidWebView.JavaScriptChannelHostApi;
+import io.flutter.plugins.webviewflutter.GeneratedAndroidWebView.WebChromeClientHostApi;
+import io.flutter.plugins.webviewflutter.GeneratedAndroidWebView.WebSettingsHostApi;
+import io.flutter.plugins.webviewflutter.GeneratedAndroidWebView.WebViewClientHostApi;
+import io.flutter.plugins.webviewflutter.GeneratedAndroidWebView.WebViewHostApi;
 
 import android.app.Activity;
 import android.content.Context;
@@ -93,7 +93,7 @@ public class WebViewFlutterPlugin implements FlutterPlugin, ActivityAware/*, Plu
 
     InstanceManager instanceManager = new InstanceManager();
     viewRegistry.registerViewFactory(
-        "plugins.lollipop.flutter.io/webview", new FlutterWebViewFactory(instanceManager));
+        "plugins.flutter.io/webview", new FlutterWebViewFactory(instanceManager));
 
     webViewHostApi =
         new WebViewHostApiImpl(

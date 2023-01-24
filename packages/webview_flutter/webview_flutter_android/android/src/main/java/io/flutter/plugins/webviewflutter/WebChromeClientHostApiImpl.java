@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.lollipop.flutter.plugins.webviewflutter;
+package io.flutter.plugins.webviewflutter;
 
-import static io.lollipop.flutter.plugins.webviewflutter.WebViewFlutterPlugin.application;
+import static io.flutter.plugins.webviewflutter.WebViewFlutterPlugin.application;
 
 import android.app.Application;
 import android.os.Build;
@@ -19,7 +19,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.Size;
 import androidx.annotation.VisibleForTesting;
-import io.lollipop.flutter.plugins.webviewflutter.GeneratedAndroidWebView.WebChromeClientHostApi;
+import io.flutter.plugins.webviewflutter.GeneratedAndroidWebView.WebChromeClientHostApi;
 
 import android.net.Uri;
 import android.util.Log;

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.lollipop.flutter.plugins.webviewflutter;
+package io.flutter.plugins.webviewflutter;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
@@ -12,8 +12,8 @@ import static org.mockito.Mockito.verify;
 
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import io.lollipop.flutter.plugins.webviewflutter.WebViewClientHostApiImpl.WebViewClientCompatImpl;
-import io.lollipop.flutter.plugins.webviewflutter.WebViewClientHostApiImpl.WebViewClientCreator;
+import io.flutter.plugins.webviewflutter.WebViewClientHostApiImpl.WebViewClientCompatImpl;
+import io.flutter.plugins.webviewflutter.WebViewClientHostApiImpl.WebViewClientCreator;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

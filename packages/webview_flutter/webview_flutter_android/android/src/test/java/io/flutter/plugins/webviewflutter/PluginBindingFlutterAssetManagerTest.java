@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.lollipop.flutter.plugins.webviewflutter;
+package io.flutter.plugins.webviewflutter;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.fail;
@@ -12,7 +12,7 @@ import static org.mockito.Mockito.when;
 
 import android.content.res.AssetManager;
 import io.flutter.embedding.engine.plugins.FlutterPlugin.FlutterAssets;
-import io.lollipop.flutter.plugins.webviewflutter.FlutterAssetManager.PluginBindingFlutterAssetManager;
+import io.flutter.plugins.webviewflutter.FlutterAssetManager.PluginBindingFlutterAssetManager;
 import java.io.IOException;
 import org.junit.Before;
 import org.junit.Test;

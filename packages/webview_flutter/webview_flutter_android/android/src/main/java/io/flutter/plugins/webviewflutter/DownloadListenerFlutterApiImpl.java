@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.lollipop.flutter.plugins.webviewflutter;
+package io.flutter.plugins.webviewflutter;
 
 import android.webkit.DownloadListener;
 import io.flutter.plugin.common.BinaryMessenger;
-import io.lollipop.flutter.plugins.webviewflutter.GeneratedAndroidWebView.DownloadListenerFlutterApi;
+import io.flutter.plugins.webviewflutter.GeneratedAndroidWebView.DownloadListenerFlutterApi;
 
 /**
  * Flutter Api implementation for {@link DownloadListener}.

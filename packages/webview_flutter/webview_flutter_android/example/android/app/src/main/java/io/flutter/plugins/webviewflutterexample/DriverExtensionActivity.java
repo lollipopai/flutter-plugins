@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.lollipop.flutter.plugins.webviewflutterexample;
+package io.flutter.plugins.webviewflutterexample;
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity;
