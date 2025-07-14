@@ -1,3 +1,7 @@
+## 2.8.3+4
+
+* Fixes v1 embedding compilation errors by removing deprecated Flutter v1 embedding APIs.
+
 ## 2.8.3+3
 
 * Fixes file chooser AlertDialog.Builder displays blank on certain devices.

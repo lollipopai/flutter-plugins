@@ -12,7 +12,6 @@ import android.util.Log;
 import android.view.View;
 import androidx.annotation.NonNull;
 
-import io.flutter.app.FlutterApplication;
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.embedding.engine.plugins.activity.ActivityAware;
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding;
@@ -32,8 +31,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-import io.flutter.plugin.common.PluginRegistry;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /**
  * Java platform implementation of the webview_flutter plugin.
@@ -65,24 +62,6 @@ public class WebViewFlutterPlugin implements FlutterPlugin, ActivityAware/*, Plu
    */
   public WebViewFlutterPlugin() {}
 
-  /**
-   * Registers a plugin implementation that uses the stable {@code io.flutter.plugin.common}
-   * package.
-   *
-   * <p>Calling this automatically initializes the plugin. However plugins initialized this way
-   * won't react to changes in activity or context, unlike {@link WebViewFlutterPlugin}.
-   */
-  @SuppressWarnings({"unused", "deprecation"})
-  public static void registerWith(io.flutter.plugin.common.PluginRegistry.Registrar registrar) {
-    new WebViewFlutterPlugin()
-        .setUp(
-            registrar.messenger(),
-            registrar.platformViewRegistry(),
-            registrar.activity(),
-            registrar.view(),
-            new FlutterAssetManager.RegistrarFlutterAssetManager(
-                registrar.context().getAssets(), registrar));
-  }
 
   private void setUp(
       BinaryMessenger binaryMessenger,
